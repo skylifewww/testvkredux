@@ -12,6 +12,11 @@
   },
   "author": "Skylife",
   "license": "MIT",
+  "keywords": {
+    "node",
+    "heroku",
+    "express"
+  },
   "devDependencies": {
     "autoprefixer": "6.3.2",
     "babel-core": "^6.18.2",
