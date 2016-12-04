@@ -15,7 +15,7 @@ app.get("/", function(req, res) {
   res.sendFile(__dirname + '/index.html')
 })
 
-app.listen(port, function(error) {
+app.listen(app.get('port'), function(error) {
   if (error) {
     console.error(error)
   } else {
